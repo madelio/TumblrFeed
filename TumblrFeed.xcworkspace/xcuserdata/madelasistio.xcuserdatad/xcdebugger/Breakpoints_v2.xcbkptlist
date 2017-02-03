@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TumblrFeed/PhotosViewController.swift"
+            timestampString = "507789660.075223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PhotosViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TumblrFeed.PhotosViewController.__deallocating_deinit"
+                  moduleName = "TumblrFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madelasistio/Projects/TumblrFeed/TumblrFeed/TumblrFeed/PhotosViewController.swift"
+                  timestampString = "507789663.657729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TumblrFeed.PhotosViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TumblrFeed.PhotosViewController"
+                  moduleName = "TumblrFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madelasistio/Projects/TumblrFeed/TumblrFeed/TumblrFeed/PhotosViewController.swift"
+                  timestampString = "507789663.66157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TumblrFeed.PhotosViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; TumblrFeed.PhotosViewController"
+                  moduleName = "TumblrFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madelasistio/Projects/TumblrFeed/TumblrFeed/TumblrFeed/PhotosViewController.swift"
+                  timestampString = "507789663.663575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TumblrFeed.PhotosViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TumblrFeed.PhotosViewController&gt;"
+                  moduleName = "TumblrFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madelasistio/Projects/TumblrFeed/TumblrFeed/TumblrFeed/PhotosViewController.swift"
+                  timestampString = "507789663.665511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TumblrFeed.PhotosViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TumblrFeed.PhotosViewController&gt;"
+                  moduleName = "TumblrFeed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/madelasistio/Projects/TumblrFeed/TumblrFeed/TumblrFeed/PhotosViewController.swift"
+                  timestampString = "507789663.66749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TumblrFeed/PhotosViewController.swift"
+            timestampString = "507791702.326633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "PhotosViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TumblrFeed/PhotosViewController.swift"
+            timestampString = "507791973.405904"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
