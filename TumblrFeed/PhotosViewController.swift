@@ -16,7 +16,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     var refresher: UIRefreshControl!
     var isMoreDataLoading = false
     var loadingMoreView:InfiniteScrollActivityView?
-    var imageTemp[URL] = []
+    var imageTemp: [URL] = []
     
 
     @IBOutlet weak var tableView: UITableView!
@@ -177,6 +177,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             
             if let imageUrl = URL(string: imageUrlString!) {
                 cell.photoImageView.setImageWith(imageUrl)
+                imageTemp.append(imageUrl)
             } else {
                 
             }
@@ -202,36 +203,33 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         
-       
-        
         if segue.identifier == "showImage" {
             let indexPath = tableView.indexPath(for: sender as! UITableViewCell)
             let vc = segue.destination as! PhotoDetailsViewController
             
-            let post = posts[indexPath.row]
+            let post = posts[(indexPath?.row)!]
+            
             if let photos = post.value(forKey: "photos") as? [NSDictionary] {
                 
                 let imageUrlString = photos[0].value(forKeyPath:
                     "original_size.url") as? String
                 
                 if let imageUrl = URL(string: imageUrlString!) {
-                    cell.photoImageView.setImageWith(imageUrl)
+                    //cell.photoImageView.setImageWith(imageUrl)
+                    //imageTemp.append(imageUrl)
+                    DispatchQueue.global().async {
+                        let data = try? Data(contentsOf: imageUrl) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
+                        DispatchQueue.main.async {
+                            vc.tumblrImageBig.image = UIImage(data: data!)
+                        }
+                    }
                 } else {
                     
                 }
                 
             } else {
                 
-                
             }
-            
-            
-            vc.tumblrImageBig = posts[indexPath.row]
-            
-            
-            
-            
-            
         }
         
         //vc.tumblrImageBig = posts[indexPath!.row]
