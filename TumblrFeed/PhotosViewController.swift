@@ -140,7 +140,10 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
                     // This is how we get the 'response' field
                     let responseFieldDictionary = responseDictionary["response"] as! NSDictionary
                     
-                    self.posts = responseFieldDictionary["posts"] as! [NSDictionary]
+                    for x in  responseFieldDictionary["posts"] as! [NSDictionary] {
+                        self.posts.append(x)
+                    }
+                    
                     // This is where you will store the returned array of posts in your posts property
                     // self.feeds = responseFieldDictionary["posts"] as! [NSDictionary]
                     
